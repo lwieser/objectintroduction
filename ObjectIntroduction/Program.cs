@@ -17,7 +17,7 @@ namespace ObjectIntroduction
             Anonymize(customerStruct);
             Anonymize(customer);
 
-            Console.WriteLine("Prénom customer " + customer.Firstname);
+            Console.WriteLine("Prénom customer " + customer.Display());
             Console.WriteLine("Prénom customerStruct " + customerStruct.Firstname);
         }
 
