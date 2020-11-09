@@ -16,5 +16,10 @@ namespace ObjectIntroduction
         {
             throw new NotImplementedException();
         }
+
+        public override string ToString()
+        {
+            return $"{Firstname} {Lastname}";
+        }
     }
 }
