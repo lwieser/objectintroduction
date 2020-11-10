@@ -14,7 +14,7 @@ namespace ObjectIntroduction
             if (!optionsBuilder.IsConfigured)
             {
                 string cs =
-                    "server=host.docker.internal;port=3307;database=efdemo;uid=efdemo;password=efdemo;TreatTinyAsBoolean=false";
+                    "server=localhost;port=3307;database=efdemo;uid=efdemo;password=efdemo;TreatTinyAsBoolean=false";
                 optionsBuilder.UseMySql(cs);
             }
         }
